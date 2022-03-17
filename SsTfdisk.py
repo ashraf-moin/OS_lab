@@ -1,3 +1,5 @@
+# shortest sick time first
+
 def calculateDifference(queue, head, diff):
     for i in range(len(diff)):
         diff[i][0] = abs(queue[i] - head)
